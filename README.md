@@ -7,7 +7,7 @@ Since this buildpack is building libwebp and ImageMagick from source your first 
 
 ## Usage
 
-This buildpack is meant to be used through 
+This buildpack is meant to be used through
 [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi),
 so in your app you need to:
 ```
@@ -16,7 +16,7 @@ heroku config:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-mult
 
 Then create a `.buildpacks` file inside your app:
 ```
-https://github.com/gesteves/heroku-buildpack-imagemagick-webp
+https://github.com/tomymehdi/heroku-buildpack-imagemagick-webp
 https://github.com/heroku/heroku-buildpack-nodejs
 ```
 
