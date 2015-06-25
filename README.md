@@ -17,7 +17,7 @@ heroku config:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-mult
 Then create a `.buildpacks` file inside your app:
 ```
 https://github.com/tomymehdi/heroku-buildpack-imagemagick-webp
-https://github.com/heroku/heroku-buildpack-nodejs
+https://github.com/heroku/heroku-buildpack-ruby
 ```
 
 The second line is for a nodejs buildpack, but it can be any other buildpack you want. If it is not working with yours, please report a bug.
